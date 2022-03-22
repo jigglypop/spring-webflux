@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yeeyee?serverTimezone=Asia/Seoul
+    username: root
+    password: 1127star@
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/yeeyee?serverTimezone=Asia/Seoul
+    username: root
+    password: 1127star@
