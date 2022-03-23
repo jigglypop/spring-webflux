@@ -3,6 +3,6 @@ spring:
     hibernate:
       ddl-auto: create
   r2dbc:
-    r2dbc: jdbc:mysql://localhost:3306/test?serverTimezone=Asia/Seoul
+    r2dbc: jdbc:mysql://localhost:3306/user?serverTimezone=Asia/Seoul
     username: root
     password: 1127star@
