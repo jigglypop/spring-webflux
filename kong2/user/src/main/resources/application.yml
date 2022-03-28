@@ -1,6 +1,14 @@
 spring:
   application:
     name : msa-user-service
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yeeyee?serverTimezone=Asia/Seoul
+    username: root
+    password: 1127star@
 server:
   port : 8000
 eureka:

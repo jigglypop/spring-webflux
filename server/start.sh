@@ -1,0 +1,1 @@
+java -jar microservices/post/build/libs/post-0.0.1-SNAPSHOT.jar & 
